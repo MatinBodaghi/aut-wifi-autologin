@@ -1,0 +1,15 @@
+{
+  "username": "",
+  "password": "",
+  "gateway_url": "https://login.aut.ac.ir/login",
+  "status_url": "https://login.aut.ac.ir/status",
+  "logout_url": "https://login.aut.ac.ir/logout",
+  "check_interval_seconds": 10,
+  "wifi_ssids": [
+    "AUT",
+    "AUT-Student",
+    "AUT-Staff",
+    "AUT-Dorm",
+    "Amirkabir"
+  ]
+}
