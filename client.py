@@ -14,7 +14,9 @@ PROBE_URL = "http://connectivitycheck.gstatic.com/generate_204"
 
 class AutWifiClient:
     def __init__(self, config: dict):
-        self.username = config.get("username", "")
+        raw_username = config.get("username", "").strip()
+        # Automatically strip @aut.ac.ir if entered
+        self.username = raw_username.split("@")[0] if "@" in raw_username else raw_username
         self.password = config.get("password", "")
         self.gateway_url = config.get("gateway_url", "https://login.aut.ac.ir/login")
         self.status_url = config.get("status_url", "https://login.aut.ac.ir/status")

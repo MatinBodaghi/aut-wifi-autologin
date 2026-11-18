@@ -33,11 +33,11 @@ pip install -r requirements.txt
 cp config.example.json config.json
 ```
 
-سپس نام کاربری و رمز عبور اینترنت دانشگاه را داخل `config.json` قرار دهید:
+سپس نام کاربری اینترنت (یوزرنیم اختصاصی سامانه اینترنت، نه شماره دانشجویی و بدون `@aut.ac.ir`) و رمز عبور را داخل `config.json` قرار دهید:
 
 ```json
 {
-  "username": "your_student_id",
+  "username": "your_username",
   "password": "your_password",
   "gateway_url": "https://login.aut.ac.ir/login",
   "status_url": "https://login.aut.ac.ir/status",

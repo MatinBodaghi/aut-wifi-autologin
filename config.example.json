@@ -1,6 +1,6 @@
 {
-  "username": "",
-  "password": "",
+  "username": "your_username",
+  "password": "your_password",
   "gateway_url": "https://login.aut.ac.ir/login",
   "status_url": "https://login.aut.ac.ir/status",
   "logout_url": "https://login.aut.ac.ir/logout",
